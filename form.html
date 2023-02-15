@@ -8,8 +8,68 @@
         <h1>Hello, World</h1>
         <form>
             <fieldset>
-                <input type="checkbox" name="mobile" id="mobile">Leave during autonomous.
+                <input type="checkbox" name="mobile" id="mobile">Leave during autonomous.<br>
+                <input type="number" name="link" id="link">Number of links
+                <br>
+                <br>
+                ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                <br>
+                <h3>Scoring Array</h3>
+                <div class="alert warning">
+                    <span class="closebtn" onClick="myFunction()">&times;</span>
+                    <strong>You are only inputing data for <em>YOUR</em> team. Please be vigilant.</strong>
+                </div>
+                <br>
+                <input name="a1" value="yes" type="checkbox">A1
+                <input name="b1" value="yes" type="checkbox">B1
+                <input name="c1" value="yes" type="checkbox">C1<br>
+                <br>
+                <input name="a2" value="yes" type="checkbox">A2
+                <input name="b2" value="yes" type="checkbox">B2
+                <input name="c2" value="yes" type="checkbox">C2<br>
+                <br>
+                <input name="a3" value="yes" type="checkbox">A3
+                <input name="b3" value="yes" type="checkbox">B3
+                <input name="c3" value="yes" type="checkbox">C3<br>
+                -------------------------<br>
+                <input name="a4" value="yes" type="checkbox">A4
+                <input name="b4" value="yes" type="checkbox">B4
+                <input name="c4" value="yes" type="checkbox">C4<br>
+                <br>
+                <input name="a5" value="yes" type="checkbox">A5
+                <input name="b5" value="yes" type="checkbox">B5
+                <input name="c5" value="yes" type="checkbox">C5<br>
+                <br>
+                <input name="a6" value="yes" type="checkbox">A6
+                <input name="b6" value="yes" type="checkbox">B6
+                <input name="c6" value="yes" type="checkbox">C6<br>
+                -------------------------<br>
+                <input name="a7" value="yes" type="checkbox">A7
+                <input name="b7" value="yes" type="checkbox">B7
+                <input name="c7" value="yes" type="checkbox">C7<br>
+                <br>
+                <input name="a8" value="yes" type="checkbox">A8
+                <input name="b8" value="yes" type="checkbox">B8
+                <input name="c8" value="yes" type="checkbox">C8<br>
+                <br>
+                <input name="a9" value="yes" type="checkbox">A9
+                <input name="b9" value="yes" type="checkbox">B9
+                <input name="c9" value="yes" type="checkbox">C9<br>
+                -------------------------<br>
+        
             </fieldset>
-        </form>  
+        </form>
+        <script>
+            var close= document.getElementById("closebtn");
+            var i;
+
+            for (i = 0; i< close.length; i++){
+                close[i].onclick = function(){
+                    var div = this.parentElement;
+                    div.style.opacity="0";
+                    setTimeout(function(){ div.style.display = "none"; }, 600);
+                }
+            }
+        </script>  
     </body>
 </html>
