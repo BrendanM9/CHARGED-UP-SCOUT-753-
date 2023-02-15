@@ -1,0 +1,1 @@
+This project is intended to be a scouting interface for the FIRST Robotics Competition (FRC) 2023 Season, Charged Up. In this game, we do an abundance of matches, and at the end of a competition, we do a few matches where we choose who we work with. The importance of the scouting website is to educate us in this decision.
