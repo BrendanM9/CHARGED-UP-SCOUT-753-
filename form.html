@@ -5,20 +5,38 @@
         <link rel="stylesheet" href="scoutstyle.css">
     </head>
     <body>
-        <h1>Hello, World</h1>
+        <h1>Complete a Scouting Entry</h1>
         <form>
             <fieldset>
+                <h2>Autonomous Period</h2>
                 <input type="checkbox" name="mobile" id="mobile">Leave during autonomous.<br>
-                <input type="number" name="link" id="link">Number of links
+                <select id="autochrg" name="autochrg" required>
+                    <option></option>
+                    <option id="docked,unengaged">Docked, Not Engaged</option>
+                    <option id="docked,engaged">Docked, Engaged</option>
+                </select>
                 <br>
                 <br>
-                ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                <br>
+                </fieldset>
+                <fieldset>
+                <h2>Teleoperated Period</h2>
                 <h3>Scoring Array</h3>
                 <div class="alert warning">
                     <span class="closebtn" onClick="myFunction()">&times;</span>
                     <strong>You are only inputing data for <em>YOUR</em> team. Please be vigilant.</strong>
                 </div>
+                <script>
+                    var close= document.getElementsByClassName("closebtn");
+                    var i;
+        
+                    for (i = 0; i< close.length; i++){
+                        close[i].onclick = function(){
+                            var div = this.parentElement;
+                            div.style.opacity="0";
+                            setTimeout(function(){ div.style.display = "none"; }, 600);
+                        }
+                    }
+                </script> 
                 <br>
                 <input name="a1" value="yes" type="checkbox">A1
                 <input name="b1" value="yes" type="checkbox">B1
@@ -56,20 +74,19 @@
                 <input name="b9" value="yes" type="checkbox">B9
                 <input name="c9" value="yes" type="checkbox">C9<br>
                 -------------------------<br>
-        
+                <br>
+                </fieldset>
+                <fieldset>
+                <h2>Endgame</h2>
+                <select id="telechrg" name="telechrg" required>
+                    <option></option>
+                    <option id="Tdocked,unengaged">Docked, Not Engaged</option>
+                    <option id="Tdocked,engaged">Docked, Engaged</option>
+                </select>
+                <br>
+                <br>
+                <input type="submit">
             </fieldset>
-        </form>
-        <script>
-            var close= document.getElementById("closebtn");
-            var i;
-
-            for (i = 0; i< close.length; i++){
-                close[i].onclick = function(){
-                    var div = this.parentElement;
-                    div.style.opacity="0";
-                    setTimeout(function(){ div.style.display = "none"; }, 600);
-                }
-            }
-        </script>  
+        </form>  
     </body>
 </html>

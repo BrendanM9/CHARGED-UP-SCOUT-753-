@@ -1,0 +1,159 @@
+Microsoft Windows [Version 10.0.19044.2486]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Team753>ftp scouting.team753.org
+Connected to scouting.team753.org.
+220 Microsoft FTP Service
+200 OPTS UTF8 command successful - UTF8 encoding now ON.
+User (scouting.team753.org:(none)): Team753
+331 Password required
+Password:
+230 User logged in.
+ftp> dir
+200 PORT command successful.
+150 Opening ASCII mode data connection.
+Aborting any active data connections...
+550
+ftp> exit
+Invalid command.
+ftp> quit
+221 Goodbye.
+
+C:\Users\Team753>ftp scouting.team753.org
+Connected to scouting.team753.org.
+220 Microsoft FTP Service
+200 OPTS UTF8 command successful - UTF8 encoding now ON.
+User (scouting.team753.org:(none)): Team753
+331 Password required
+Password:
+230 User logged in.
+ftp> dir
+200 PORT command successful.
+125 Data connection already open; Transfer starting.
+05-28-20  08:35PM       <DIR>          CC-Collateral
+05-26-22  06:24PM       <DIR>          CrossConnect.biz
+06-13-18  01:39PM       <DIR>          CrossConnect.biz - 20180613-1345
+07-09-20  05:31PM       <DIR>          CrossConnect.biz - 20200810-1426
+11-15-20  09:03PM       <DIR>          CrossConnect.biz - 20210219-0858
+11-15-20  09:03PM       <DIR>          CrossConnect.biz - 20210314-2206
+11-15-20  09:03PM       <DIR>          CrossConnect.biz - 20210912-2022
+05-26-22  06:23PM       <DIR>          CrossConnect.biz - 20220526-1923
+02-16-23  07:50PM       <DIR>          Scouting.Team753.org
+05-18-22  06:58PM       <DIR>          Staging
+05-23-22  02:18PM       <DIR>          test.millerglobalmanagement.com
+06-03-20  07:12AM       <DIR>          test.millerglobalmanagement.com - 20200603-0812
+10-09-22  12:29PM       <DIR>          test2.millerglobalmanagement.com
+05-23-22  07:43PM       <DIR>          test2.millerglobalmanagement.com - 20220523-2043
+02-19-20  05:17PM       <DIR>          trial.CrossConnect.today
+03-25-19  12:36PM       <DIR>          trial.CrossConnect.today - 20190325-1336
+07-02-19  08:15AM       <DIR>          trial.CrossConnect.today - 20190702-0916
+12-01-22  02:56PM              1876996 VCUBE-20221201-1453.txt
+226 Transfer complete.
+ftp: 1274 bytes received in 0.05Seconds 25.48Kbytes/sec.
+ftp> cd Scouting.Team753.org
+250 CWD command successful.
+ftp> dir
+200 PORT command successful.
+125 Data connection already open; Transfer starting.
+02-16-23  07:07PM                  121 index.html
+02-16-23  07:14PM                  623 web.config
+226 Transfer complete.
+ftp: 105 bytes received in 0.00Seconds 105000.00Kbytes/sec.
+ftp> get index.html
+200 PORT command successful.
+125 Data connection already open; Transfer starting.
+226 Transfer complete.
+ftp: 121 bytes received in 0.07Seconds 1.73Kbytes/sec.
+ftp> by
+221 Goodbye.
+
+C:\Users\Team753>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 62C3-DE4F
+
+ Directory of C:\Users\Team753
+
+02/16/2023  07:55 PM    <DIR>          .
+02/16/2023  07:55 PM    <DIR>          ..
+01/19/2023  07:15 PM    <DIR>          .android
+02/07/2023  06:26 PM                51 .gitconfig
+01/16/2023  07:04 PM    <DIR>          .gradle
+01/22/2023  01:02 PM    <DIR>          .javacpp
+02/06/2023  06:33 PM    <DIR>          .junique
+01/22/2023  01:02 PM    <DIR>          .openjfx
+01/17/2023  05:23 PM    <DIR>          .vscode
+01/22/2023  01:02 PM    <DIR>          .wpilib
+01/16/2023  06:14 PM    <DIR>          3D Objects
+02/14/2023  07:32 PM    <DIR>          CHARGED-UP-SCOUT-753-
+01/16/2023  06:14 PM    <DIR>          Contacts
+02/14/2023  04:23 PM    <DIR>          Desktop
+02/05/2023  01:13 PM    <DIR>          Documents
+02/14/2023  04:29 PM    <DIR>          Downloads
+01/16/2023  06:14 PM    <DIR>          Favorites
+02/16/2023  07:55 PM               121 index.html
+01/16/2023  06:14 PM    <DIR>          Links
+01/17/2023  06:40 PM    <DIR>          Music
+02/06/2023  06:50 PM                 0 None
+01/16/2023  06:16 PM    <DIR>          OneDrive
+02/14/2023  04:25 PM    <DIR>          Pictures
+01/17/2023  06:42 PM    <DIR>          Saved Games
+01/16/2023  06:16 PM    <DIR>          Searches
+02/06/2023  06:33 PM    <DIR>          Shuffleboard
+01/22/2023  11:44 AM    <DIR>          Videos
+01/19/2023  06:29 PM    <DIR>          wpilib
+               3 File(s)            172 bytes
+              25 Dir(s)  180,751,790,080 bytes free
+
+C:\Users\Team753>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
