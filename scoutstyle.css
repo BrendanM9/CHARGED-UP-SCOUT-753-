@@ -1,5 +1,6 @@
 body{
     background-image:linear-gradient(to top left, rgb(59, 12, 230), rgb(40, 214, 230));
+    font-family:'Comic Sans Ms', "Comic Sans", cursive;
 }
 h1{
     color:rgb(250,250,250);
