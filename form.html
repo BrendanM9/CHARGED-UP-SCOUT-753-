@@ -6,14 +6,14 @@
     </head>
     <body>
         <h1>Complete a Scouting Entry</h1>
-        <form>
+        <form action="/py/CGI-Test.py" method="post"> 
             <fieldset>
                 <h2>Autonomous Period</h2>
                 <input type="checkbox" name="mobile" id="mobile">Leave during autonomous.<br>
                 <select id="autochrg" name="autochrg" required>
                     <option></option>
-                    <option id="docked,unengaged">Docked, Not Engaged</option>
-                    <option id="docked,engaged">Docked, Engaged</option>
+                    <option name="docked,unengaged">Docked, Not Engaged</option>
+                    <option name="docked,engaged">Docked, Engaged</option>
                 </select>
                 <br>
                 <br>
@@ -80,11 +80,11 @@
                 </fieldset>
                 <fieldset>
                 <h2>Endgame</h2>
-                <select id="telechrg" name="telechrg" required>
+                <select name="telechrg" id="telechrg" required>
                     <option></option>
-                    <option id="tpark">Parked</option>
-                    <option id="Tdocked,unengaged">Docked, Not Engaged</option>
-                    <option id="Tdocked,engaged">Docked, Engaged</option>
+                    <option name="tpark">Parked</option>
+                    <option name="Tdocked,unengaged">Docked, Not Engaged</option>
+                    <option name="Tdocked,engaged">Docked, Engaged</option>
                 </select>
                 <br>
                 <br>
