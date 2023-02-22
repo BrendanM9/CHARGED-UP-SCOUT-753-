@@ -1,6 +1,5 @@
 body{
     background-image:linear-gradient(to top left, rgb(59, 12, 230), rgb(40, 214, 230));
-    font-family:'Comic Sans Ms', "Comic Sans", cursive;
 }
 h1{
     color:rgb(250,250,250);
@@ -186,4 +185,23 @@ input[type=text], input[type=password], input[type=email] {
 
   .closebtn:hover{
     color:black;
+  }
+  input[checkbox].yes{
+    color:#04AA6D;
+    background-color: #f44336;
+  }
+  a:link{
+    color:red;
+  }
+
+  a:visited{
+    color:#033724;
+  }
+
+  a:hover{
+    color:darkgoldenrod;
+  }
+
+  a:active{
+    color:white;
   }

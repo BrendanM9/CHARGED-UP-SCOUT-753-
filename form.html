@@ -9,12 +9,18 @@
         <form action="/py/CGI-Test.py" method="post"> 
             <fieldset>
                 <h2>Autonomous Period</h2>
-                <input type="checkbox" name="mobile" id="mobile">Leave during autonomous.<br>
+                <input type="checkbox" name="mobile" id="mobile" class="container">Leave during autonomous.
+                <br>
                 <select id="autochrg" name="autochrg" required>
                     <option></option>
                     <option name="docked,unengaged">Docked, Not Engaged</option>
                     <option name="docked,engaged">Docked, Engaged</option>
                 </select>
+                <br>
+                <br>
+                <input type="number" name="coneauto">Cones Scored During Autonomous
+                <br>
+                <input type="number" name="cubeauto">Cubes Scored During Autonomous
                 <br>
                 <br>
                 </fieldset>
@@ -42,39 +48,75 @@
 
                 <input name="t1" value="yes" type="checkbox">T1
                 <input name="m1" value="yes" type="checkbox">M1
-                <input name="b1" value="yes" type="checkbox">B1<br>
+                <select name="b1">
+                    <option name="na"></option>
+                    <option name="cube">Cube</option>
+                    <option name="cone">Cone</option>
+                </select>B1<br>
                 <br>
                 <input name="t2" value="yes" type="checkbox">T2
                 <input name="m2" value="yes" type="checkbox">M2
-                <input name="b2" value="yes" type="checkbox">B2<br>
+                <select name="b2">
+                    <option name="na"></option>
+                    <option name="cube">Cube</option>
+                    <option name="cone">Cone</option>
+                </select>B2<br>
                 <br>
                 <input name="t3" value="yes" type="checkbox">T3
                 <input name="m3" value="yes" type="checkbox">M3
-                <input name="b3" value="yes" type="checkbox">B3<br>
+                <select name="b3">
+                    <option name="na"></option>
+                    <option name="cube">Cube</option>
+                    <option name="cone">Cone</option>
+                </select>B3<br>
                 -------------------------<br>
                 <input name="t4" value="yes" type="checkbox">T4
                 <input name="m4" value="yes" type="checkbox">M4
-                <input name="b4" value="yes" type="checkbox">B4<br>
+                <select name="b4">
+                    <option name="na"></option>
+                    <option name="cube">Cube</option>
+                    <option name="cone">Cone</option>
+                </select>B4<br>
                 <br>
                 <input name="t5" value="yes" type="checkbox">T5
                 <input name="m5" value="yes" type="checkbox">M5
-                <input name="b5" value="yes" type="checkbox">B5<br>
+                <select name="b5">
+                    <option name="na"></option>
+                    <option name="cube">Cube</option>
+                    <option name="cone">Cone</option>
+                </select>B5<br>
                 <br>
                 <input name="t6" value="yes" type="checkbox">T6
                 <input name="m6" value="yes" type="checkbox">M6
-                <input name="b6" value="yes" type="checkbox">B6<br>
+                <select name="b6">
+                    <option name="na"></option>
+                    <option name="cube">Cube</option>
+                    <option name="cone">Cone</option>
+                </select>B6<br>
                 -------------------------<br>
                 <input name="t7" value="yes" type="checkbox">T7
                 <input name="m7" value="yes" type="checkbox">M7
-                <input name="b7" value="yes" type="checkbox">B7<br>
+                <select name="b7">
+                    <option name="na"></option>
+                    <option name="cube">Cube</option>
+                    <option name="cone">Cone</option>
+                </select>B7<br>
                 <br>
                 <input name="t8" value="yes" type="checkbox">T8
                 <input name="m8" value="yes" type="checkbox">M8
-                <input name="b8" value="yes" type="checkbox">B8<br>
+                <select name="b8">
+                    <option name="na"></option>
+                    <option name="cube">Cube</option>
+                    <option name="cone">Cone</option>
+                </select>B8<br>
                 <br>
                 <input name="t9" value="yes" type="checkbox">T9
                 <input name="m9" value="yes" type="checkbox">M9
-                <input name="b9" value="yes" type="checkbox">B9<br>
+                <select name="b9">
+                    <option name="na"></option>
+                    <option name="cube">Cube</option>
+                    <option name="cone">Cone</option>
+                </select>B9<br>
                 -------------------------<br>
                 <br>
                 </fieldset>
